@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b0b22a6c.css",
+    "main.js": "/static/js/main.140f97a3.js",
+    "static/media/grad.jpg": "/static/media/grad.33f2f0b99fbe58237ee8.jpg",
+    "static/media/docConnect.png": "/static/media/docConnect.ea56fc9d14d2ea8d1adf.png",
+    "static/media/healingHorizon.png": "/static/media/healingHorizon.c02755cb523a3e04657b.png",
+    "static/media/pos.png": "/static/media/pos.88015da6ef7f32f631ba.png",
+    "static/media/cv_Mohammad Chahine.pdf": "/static/media/cv_Mohammad Chahine.894d3f2dd30d15e44800.pdf",
+    "static/media/profile.png": "/static/media/profile.dac3c8c77b77d9b012ee.png",
+    "static/media/uniProjects.webp": "/static/media/uniProjects.c9367eabe2af5202f9af.webp",
+    "static/media/twoOfUs.png": "/static/media/twoOfUs.e2f6df51d244a7697454.png",
+    "static/media/techlarious.png": "/static/media/techlarious.09e8b6182ff121bec117.png",
+    "index.html": "/index.html",
+    "main.b0b22a6c.css.map": "/static/css/main.b0b22a6c.css.map",
+    "main.140f97a3.js.map": "/static/js/main.140f97a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0b22a6c.css",
+    "static/js/main.140f97a3.js"
+  ]
+}
