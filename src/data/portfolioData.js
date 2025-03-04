@@ -1,5 +1,6 @@
 import twoOfUs from "../assets/images/twoOfUs.png";
 import techlarious from "../assets/images/techlarious.png";
+import eTech from "../assets/images/eTech.png";
 import docconnect from "../assets/images/docConnect.png"
 import healinghorizon from "../assets/images/healingHorizon.png"
 import pos from "../assets/images/pos.png"
@@ -94,7 +95,8 @@ export const skills = [
 
 export const experiences = [
   { icon: techlarious, company: "TECHlarious", link: "https://www.linkedin.com/school/techlarious", role: "Full Stack Developer", responsibility: "Intensive training bootcamp champion in Full Stack using MERN Stack, MongoDB, Express, React, Node.", period: "July 2023 - October 2023" },
-  { icon: twoOfUs, company: "Two Of Us L.L.C", link: "https://www.linkedin.com/company/two-of-us-cooperation", role: "Front-end Developer", responsibility: "Engaged in a four-months intensive internship completed multiple projects in React.js developing dynamic web applications", period: "April 2024 - August 2024" }
+  { icon: twoOfUs, company: "Two Of Us L.L.C", link: "https://www.linkedin.com/company/two-of-us-cooperation", role: "Front-end Developer", responsibility: "Engaged in a four-months intensive internship completed multiple projects in React.js developing dynamic web applications", period: "April 2024 - August 2024" },
+  { icon: eTech, company: "3E Tech", link: "https://www.linkedin.com/company/tech-3e", role: "Full Stack Developer", responsibility: "Implemented various features in the company's main project with a team using React.js, Node.js, Express.js, and TypeScript.", period: "January 2025 - Match 2025" }
 ];
 
 export const projects = [
