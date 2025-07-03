@@ -6,32 +6,33 @@ import healinghorizon from "../assets/images/healingHorizon.png"
 import pos from "../assets/images/pos.png"
 import uniProjects from "../assets/images/uniProjects.webp"
 import todo from "../assets/images/todo.png"
+import bloomandbottle from "../assets/images/bloomandbottle.png"
 
 export const skills = [
   {
     name: "React",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
     color: "lightBlue",
-    projectsMade: ["Healing horizon", "DocConnect", "POS system", "To-do app", "This portfolio ;)"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "POS system", "To-do app", "This portfolio ;)"]
   },
   {
     name: "Node.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
     color: "green",
-    projectsMade: ["Healing horizon", "DocConnect", "To-do app"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "To-do app"]
   },
   {
     name: "Express",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
     color: "black",
-    projectsMade: ["Healing horizon", "DocConnect", "To-do app"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "To-do app"]
 
   },
   {
     name: "MongoDB",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
     color: "green",
-    projectsMade: ["Healing horizon", "DocConnect", "University projects"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "University projects"]
 
   },
   {
@@ -45,49 +46,49 @@ export const skills = [
     name: "JavaScript",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     color: "yellow",
-    projectsMade: ["Healing horizon", "DocConnect", "POS system", "To-do app", "University projects"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "POS system", "To-do app", "University projects"]
 
   },
   {
     name: "TypeScript",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     color: "lightBlue",
-    projectsMade: ["To-do app", "General knowledge"]
+    projectsMade: ["Bloom and Bottle","To-do app", "General knowledge"]
 
   },
   {
     name: "CSS",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
     color: "lightBlue",
-    projectsMade: ["Healing horizon", "DocConnect", "POS system", "To-do app", "University projects"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "POS system", "To-do app", "University projects"]
 
   },
   {
     name: "HTML",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     color: "orange",
-    projectsMade: ["Healing horizon", "DocConnect", "POS system", "To-do app", "University projects"]
+    projectsMade: ["Bloom and Bottle","Healing horizon", "DocConnect", "POS system", "To-do app", "University projects"]
 
   },
   {
     name: "Tailwind",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     color: "lightBlue",
-    projectsMade: ["To-do app", "This portfolio ;)"]
+    projectsMade: ["Bloom and Bottle","To-do app", "This portfolio ;)"]
 
   },
   {
     name: "Redis",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-plain.svg",
     color: "red",
-    projectsMade: ["To-do app", "General knowledge"]
+    projectsMade: ["Bloom and Bottle","To-do app", "General knowledge"]
 
   },
   {
     name: "Redux",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
     color: "purple",
-    projectsMade: ["To-do app", "General knowledge"]
+    projectsMade: ["Bloom and Bottle","To-do app", "General knowledge"]
 
   },
   {
@@ -129,6 +130,7 @@ export const experiences = [
 ];
 
 export const projects = [
+  { image: bloomandbottle, name: "Bloom and Bottle", description:   "Bloom and Bottle is a modern e-commerce web application focused on perfumes and samples. It allows all users—whether logged in or not—to browse and explore available products and collections. Registered users can manage their orders through a personalized dashboard, providing easy access to order tracking and history. The platform also features a dedicated admin dashboard, enabling administrators to add and manage products, collections, and homepage content, as well as review and process customer orders. Additionally, admins can manage customer feedback to improve user experience. The back-end is built with Node.js, Express, and MongoDB using Mongoose for seamless data modeling and operations. Secure authentication is implemented via JWT with refresh tokens in HTTP cookies, and Redis caching optimizes performance. The front-end is developed using React with TypeScript, styled with Tailwind CSS and Shadcn components, with state management powered by Redux (with persistence and encryption) and React Query for data fetching. The app is optimized with Vite and Lighthouse-validated SEO best practices. It’s containerized with Docker, with the front-end deployed on Vercel and the back-end on Render, adhering to clean code and SOLID principles for scalability.", deploymentLink:"https://bloom-and-bottle.vercel.app/", presentation: "https://youtu.be/bjPsmavb7R0", codeLink: "https://github.com/mmchahine0/Bloom-and-bottle" },
   { image: todo, name: "To-do App", description: "This advanced to-do application is a full-stack project utilizing Node.js, Express, and Prisma with PostgreSQL for the back-end, enhanced by Redis caching for performance. Secure authentication is implemented with JWT, including refresh tokens via HTTP cookies and role-based access control. Google API integration facilitates email services, including OTP verification and password resets, while WebSocket functionality enables real-time collaboration and notifications. Robust security measures include rate limiting and comprehensive data validation. The React front-end, built with TypeScript and styled with Tailwind CSS and Shadcn components, leverages Redux with persist and encryption for state management, and React Query for efficient data handling. Performance optimization is achieved through code splitting, Vite, and SEO best practices validated by Lighthouse. Containerized with Docker, the front-end is deployed on Vercel, and the back-end and database on Render. Adhering to SOLID principles and clean code practices, this project showcases a comprehensive approach to modern web development.", presentation: "https://youtu.be/xRO09qOOtL4", codeLink: "https://github.com/mmchahine0/Todo-app-front" },
   { image: pos, name: "POS system", description: "This web-based POS system, built using the MERN stack, streamlines order management by providing an intuitive menu interface to add items to orders and generate bills. It offers comprehensive CRUD operations for managing users, products, and orders, ensuring efficient and flexible control over all aspects of the system.", presentation: "https://youtu.be/BgDX6yPIeQU", codeLink: "https://github.com/mmchahine0/POS" },
   { image: healinghorizon, name: "Healing horizon", description: "Healing Horizons streamlines healthcare with simplified appointments, enhanced doctor-patient communication, transparent pricing, and online medicine purchases. Users enjoy easy scheduling, doctor profiles, centralized records, and room reservations. Doctors benefit from streamlined appointment management and profile updates. The platform facilitates efficient communication through email.", presentation: "https://youtu.be/P0R8T8gCTRI", codeLink: "https://github.com/mmchahine0/Healing-horizons" },

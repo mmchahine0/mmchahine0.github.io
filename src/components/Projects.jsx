@@ -23,6 +23,17 @@ const Projects = () => (
               <p className="text-gray-300 mb-4">{project.description}</p>
             </div>
             <div className="flex space-x-4">
+              {project.deploymentLink && (
+                <a
+                  href={project.deploymentLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-purple-400 hover:bg-purple-300 text-gray-900 px-4 py-2 rounded-full font-bold transition-colors"
+                >
+                  Visit
+                </a>
+              )}
+              
               <a
                 href={project.presentation}
                 target="_blank"

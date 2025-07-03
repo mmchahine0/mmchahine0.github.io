@@ -28,7 +28,7 @@ const About = () => (
           <NeonText>Year Experience</NeonText>
         </div>
         <div className="bg-gray-800 p-4 rounded-lg text-center">
-          <h3 className="text-xl font-bold mb-2">4+</h3>
+          <h3 className="text-xl font-bold mb-2">5+</h3>
           <NeonText>Projects Completed</NeonText>
         </div>
       </div>
