@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a18fdf8.css",
-    "main.js": "/static/js/main.1f026ff1.js",
+    "main.css": "/static/css/main.7bdcb652.css",
+    "main.js": "/static/js/main.142b228c.js",
     "static/media/grad.jpg": "/static/media/grad.33f2f0b99fbe58237ee8.jpg",
     "static/media/bloomandbottle.png": "/static/media/bloomandbottle.cfb2959a2b052edb8ad5.png",
     "static/media/docConnect.png": "/static/media/docConnect.ea56fc9d14d2ea8d1adf.png",
@@ -9,16 +9,16 @@
     "static/media/pos.png": "/static/media/pos.88015da6ef7f32f631ba.png",
     "static/media/todo.png": "/static/media/todo.00b9bd6e487c3d1f05b2.png",
     "static/media/profile.png": "/static/media/profile.dac3c8c77b77d9b012ee.png",
-    "static/media/CV_Mohammad_Chahine.pdf": "/static/media/CV_Mohammad_Chahine.7e9f6b5774dd621dd183.pdf",
+    "static/media/CV_Mohammad_Chahine.pdf": "/static/media/CV_Mohammad_Chahine.acbf5b6a4281dcd7bd41.pdf",
     "static/media/uniProjects.webp": "/static/media/uniProjects.c9367eabe2af5202f9af.webp",
     "static/media/twoOfUs.png": "/static/media/twoOfUs.e2f6df51d244a7697454.png",
     "static/media/techlarious.png": "/static/media/techlarious.09e8b6182ff121bec117.png",
     "index.html": "/index.html",
-    "main.3a18fdf8.css.map": "/static/css/main.3a18fdf8.css.map",
-    "main.1f026ff1.js.map": "/static/js/main.1f026ff1.js.map"
+    "main.7bdcb652.css.map": "/static/css/main.7bdcb652.css.map",
+    "main.142b228c.js.map": "/static/js/main.142b228c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a18fdf8.css",
-    "static/js/main.1f026ff1.js"
+    "static/css/main.7bdcb652.css",
+    "static/js/main.142b228c.js"
   ]
 }
