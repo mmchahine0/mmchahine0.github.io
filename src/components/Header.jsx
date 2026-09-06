@@ -52,16 +52,16 @@ const Header = () => {
         </Canvas>
       </div>
       <div className="container mx-auto px-4 z-10 relative">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold mb-4">
+        <div className="flex flex-col items-center justify-center gap-10 md:flex-row md:items-center md:justify-center md:gap-8 lg:gap-10">
+          <div className="w-full max-w-xl text-center md:w-[46%] md:text-left md:mr-2 lg:mr-4">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
               Hi, I'm <span className="text-yellow-400">Mohammad</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-3xl mb-6">
               I'm a{" "}
               <span className="text-purple-400">Full Stack Developer</span>
             </h2>
-            <p className="text-xl mb-8 max-w-lg">
+            <p className="text-lg sm:text-xl mb-8 max-w-lg mx-auto md:mx-0">
               I create amazing web experiences with a passion for clean code and
               user-centric design.
             </p>
@@ -74,18 +74,18 @@ const Header = () => {
               Get In Touch
             </a>
           </div>
-          <div className="md:w-1/2 mt-12 md:mt-0 relative">
+          <div className="w-full flex justify-center md:w-[38%] md:justify-center">
             <img
               src={pfpimg}
               alt="Mohammad"
-              className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg mx-auto relative z-10"
+              className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full border-4 border-yellow-400 shadow-lg relative z-10"
             />
           </div>
         </div>
       </div>
       <a
         href="#about"
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
+        className="hidden sm:block absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
       >
         <ArrowDown size={32} className="text-yellow-400" />
       </a>

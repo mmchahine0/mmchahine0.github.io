@@ -8,11 +8,13 @@ const About = () => (
     <div className="grid md:grid-cols-2 gap-8 items-center">
       <div>
         <p className="text-lg mb-6">
-          Full Stack Developer specializing in the MERN stack (MongoDB, Express,
-          React.js, Node.js) with expertise in building dynamic, scalable web
-          applications. Proficient in Object-Oriented Programming (OOP) with
-          JavaScript, Java, and C#. Passionate about efficient code,
-          problem-solving, and adopting new technologies.
+          Full-Stack Web Developer experienced in building modern, scalable web
+          applications using React, TypeScript, and Node.js. Brings additional
+          enterprise software development experience with Microsoft Dynamics 365
+          and Power Platform, including data modeling, business logic,
+          integrations, and system design. Currently contributing to a
+          large-scale enterprise project for a government client, applying
+          software engineering principles to real-world business solutions.
         </p>
         <a
           href={cv}
@@ -24,11 +26,11 @@ const About = () => (
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div className="bg-gray-800 p-4 rounded-lg text-center">
-          <h3 className="text-xl font-bold mb-2">1</h3>
-          <NeonText>Year Experience</NeonText>
+          <h3 className="text-xl font-bold mb-2">2</h3>
+          <NeonText>Years Experience</NeonText>
         </div>
         <div className="bg-gray-800 p-4 rounded-lg text-center">
-          <h3 className="text-xl font-bold mb-2">5+</h3>
+          <h3 className="text-xl font-bold mb-2">8+</h3>
           <NeonText>Projects Completed</NeonText>
         </div>
       </div>

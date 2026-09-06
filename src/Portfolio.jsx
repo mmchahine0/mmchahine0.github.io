@@ -22,7 +22,7 @@ const Portfolio = () => {
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
   const [randomQuote] = useState(
-    () => quotes[Math.floor(Math.random() * quotes.length)]
+    () => quotes[Math.floor(Math.random() * quotes.length)],
   );
 
   useEffect(() => {
@@ -108,7 +108,7 @@ const Portfolio = () => {
         <Contact />
       </main>
       <footer className="text-center py-4 text-gray-400">
-        <p>&copy; 2025 Mohammad mahdi Chahine. All rights reserved.</p>
+        <p>&copy; 2026 Mohammad mahdi Chahine. All rights reserved.</p>
       </footer>
     </div>
   );
